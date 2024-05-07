@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=K2D:wght@500&family=Work+Sans&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Rubik+Scribble&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Fjalla+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+:after,
+:before {
+    margin:0px;
+    padding: 3px;
+    box-sizing: border-box;
+    background-color: #F2CBBD;
+}
+.a{
+  color: #498BA6;
+  text-decoration: none;
+}
+.li{
+  color: #498BA6;
+}
+html {
+    font-size: 100%; /* 100% = 16px = 1rem*/
+    }
+    @media screen and (min-width: 640px){
+        .flex-container {
+            display: flex;
+            background: #F2CBBD;
+        }
+      }
+.h1, h2, h3{
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 700px;
+}
+.foto1 {
+        flex: 0 1 40%;
+        background: #F2CBBD;
+        padding: 20px; 
+}
+.foto2 {
+  display: flex;
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center; /* Centrar verticalmente */
+  background-color: #F2CBBD;
+}
+.foto2 img{
+  background-color: #F2CBBD;
+  padding: 2%;
+    width: 50%;
+}
+.parte1{
+  padding:10% ;
+  font-family: "Fjalla One", sans-serif;
+  color: #498BA6;
+  background-color: #F2CBBD;
+  
+}
+.titulo{
+  padding:5% ;
+  font-family: "Fjalla One", sans-serif;
+  color: #498BA6;
+  background-color: #F2CBBD;
+  width: 100%;
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center; /* Centrar verticalmente */
+  display: flex;
+}
+.cosas {
+        flex: 1px; /* ancho fijo de 300px */
+        background: #F2CBBD;
+        text-align: center;
+        margin:0px 10px 0px 10px;
+        margin-left: 10px;
+        padding-top: 100px; /* Ajusta 50px al valor que desees */
+        padding-bottom: 100px; /* Ajusta 50px al valor que desees */
+        color: #498BA6;
+        font-family: "Fjalla One", sans-serif;
+        font-weight: 700px;
+
+    }
+ .centro{
+    line-height: 50ppx;
+    background-color: #F2CBBD;
+    flex-direction: column;
+    list-style-type: none;
+    text-align: center;
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 700px;
+    color: #498BA6;
+}
+.img{
+  background-color: #F2CBBD;
+  color: #498BA6;
+}
+.mywork1{
+  line-height: 50ppx;
+  background-color: #F2CBBD;
+  flex-direction: column;
+  list-style-type: none;
+  text-align: center;
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 700px;
+  color: #498BA6;
+}   
+.forms{
+  line-height: 50ppx;
+  background-color: #F2CBBD;
+  flex-direction: column;
+  list-style-type: none;
+  text-align: center;
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 700px;
+  color: #498BA6;
+}
+
+.header {
+    background: #F2CBBD; 
+  }
+    .masonry{
+      background-color: #F2CBBD;
+    }
+    
+.footer{
+    background:#F2CBBD;
+    padding:30px 0px;
+    font-family: 'Work Sans', sans-serif;
+    text-align:center;
+    }
+    
+    .footer .row{
+    width:100%;
+    margin:1% 0%;
+    padding:0.6% 0%;
+    color:#498BA6;
+    font-size:0.8em;
+    }
+    
+    .footer .row a{
+    text-decoration:none;
+    color:#498BA6;
+    transition:0.5s;
+    }
+    
+    .footer .row a:hover{
+    color:#498BA6;
+    }
+    
+    .footer .row ul{
+    width:100%;
+    }
+    
+    .footer .row ul li{
+    display:inline-block;
+    margin:0px 30px;
+    }
+    
+    .footer .row a i{
+    font-size:2em;
+    margin:0% 1%;
+    }
+    
+    @media (max-width:720px){
+    .footer{
+    text-align:left;
+    padding:5%;
+    }
+    .footer .row ul li{
+    display:block;
+    margin:10px 0px;
+    text-align:left;
+    }
+    .footer .row a i{
+    margin:0% 3%;
+    }
+    }
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #F2CBBD;
+        color: #498BA6;
+        padding: 10px 20px;
+    }
+    
+    .navbar-logo {
+        font-size: 44px;
+
+    }
+    
+    .navbar-links {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+    }
+    
+    .navbar-links li {
+        margin: 0 15px;
+    }
+    
+    .navbar-links a {
+        text-decoration: none;
+        color: #498BA6;
+    }
+    
+    .navbar-toggle {
+        display: none;
+        flex-direction: column;
+        cursor: pointer;
+    }
+    
+    .bar {
+        width: 25px;
+        height: 3px;
+        background-color: #498BA6;
+        margin: 3px 0;
+    }
+    
+    @media (max-width: 768px) { /* media query: de 768px hacia abajo */
+        .navbar-links {
+            display: none;
+            flex-direction: column;
+            position: absolute;
+            top: 120px;
+            left: 0;
+            width: 100%;
+            background-color: #F2CBBD;
+            text-align: center;
+        }
+    
+        .navbar-links.active {
+            display: flex;
+        }
+    
+        .navbar-toggle {
+            display: flex;
+        }
+    }
+    /* estilos overlay */
+    .button_container {
+        position: fixed;
+        top: 8%;
+        right: 3%;
+        height: 27px;
+        width: 35px;
+        cursor: pointer;
+        z-index: 100;
+        transition: opacity .25s ease;
+      }
+      @media (max-width: 768px) {
+        .button_container {
+          top: 4.7%;
+          right: 10%;
+        }
+      }
+      .button_container:hover {
+        opacity: .7;
+      }
+      .button_container.active .top {
+        transform: translateY(11px) translateX(0) rotate(45deg);
+        background: #498BA6;
+      }
+      .button_container.active .middle {
+        opacity: 0;
+        background: #498BA6;
+      }
+      .button_container.active .bottom {
+        transform: translateY(-11px) translateX(0) rotate(-45deg);
+        background:#498BA6;
+      }
+      .button_container span {
+        background: #498BA6;
+        border: none;
+        height: 5px;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transition: all .35s ease;
+        cursor: pointer;
+      }
+      .button_container span:nth-of-type(2) {
+        top: 11px;
+      }
+      .button_container span:nth-of-type(3) {
+        top: 22px;
+      }
+      .overlay {
+        position: fixed;
+        background: #F2CBBD;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 0%;
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity .35s, visibility .35s, height .35s;
+        overflow: hidden;
+      }
+      .overlay.open {
+        opacity: .9;
+        visibility: visible;
+        height: 100%;
+      }
+      .overlay.open li {
+        animation: fadeInRight .5s ease forwards;
+        animation-delay: .35s;
+      }
+      .overlay.open li:nth-of-type(2) {
+        animation-delay: .4s;
+      }
+      .overlay.open li:nth-of-type(3) {
+        animation-delay: .45s;
+      }
+      .overlay.open li:nth-of-type(4) {
+        animation-delay: .50s;
+      }
+      .overlay nav {
+        position: relative;
+        height: 70%;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 50px;
+        font-family: 'Varela Round', serif;
+        font-weight: 400;
+        text-align: center;
+      }
+      .overlay ul {
+        list-style: none;
+        padding: 0;
+        margin: 0 auto;
+        display: inline-block;
+        position: relative;
+        height: 100%;
+      }
+      .overlay ul li {
+        display: block;
+        height: 25%;
+        height: calc(100% / 4);
+        min-height: 50px;
+        position: relative;
+        opacity: 0;
+      }
+      .overlay ul li a {
+        display: block;
+        position: relative;
+        color:#498BA6;
+        text-decoration: none;
+        overflow: hidden;
+      }
+      .overlay ul li a:hover:after, .overlay ul li a:focus:after, .overlay ul li a:active:after {
+        width: 100%;
+      }
+      .overlay ul li a:after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        width: 0%;
+        transform: translateX(-50%);
+        height: 3px;
+        background: #498BA6;
+        transition: .35s;
+      }
+      
+      @keyframes fadeInRight {
+        0% {
+          opacity: 0;
+          left: 20%;
+        }
+        100% {
+          opacity: 1;
+          left: 0;
+        }
+      }
+.body{
+  margin:0px #F2CBBD;
+  padding: 3px;
+  box-sizing: border-box;
+  background-color: #F2CBBD;
+
+}

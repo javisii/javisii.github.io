@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página responsive y navbar con overlay con HTML y CSS</title>
+    <link rel="stylesheet" href="homepage.css">
+    <link rel="stylesheet" href="slider.css"> <!-- libreria slider -->
+    <link rel="stylesheet" href="galeria.css"> <!-- libreria galeria masonry -->
+    
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  /> <!-- libreria animate.css -->
+    <script src="wow.min.js"></script> <!-- libreria wow -->
+    <script>
+        new WOW().init(); //cargar libreria wow
+    </script>
+</head>
+<body>
+    <main>
+        <header class="header">
+            <nav class="navbar">
+                <div class="navbar-logo"><img src="images/dragon.png" width="60" alt=""></div> <!-- Logo de la pagina -->
+                <div class="button_container" id="toggle"> <!-- Menu hamburguesa -->
+                    <span class="top"></span>
+                    <span class="middle"></span>
+                    <span class="bottom"></span>
+                </div>
+                <div class="overlay" id="overlay">
+                    <nav class="overlay-menu">
+                        <ul> <!-- Enlaces de navegación -->
+                            <li><a href="#">Inicio</a></li>
+                            <li><a href="#">Acerca de</a></li>
+                            <li><a href="#">Servicios</a></li>
+                            <li><a href="#">Contacto</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </nav>
+        </header>
+        <section>
+          <div class="masonry">
+            <div class="mItem">
+              <img class="img-galeria" src="phot1.jpg">
+            </div>
+          
+            <div class="mItem">
+              <img class="img-galeria" src="photo2.jpg">
+            </div>
+          
+            <div class="mItem">
+              <img class="img-galeria" src="photo3.jpg">
+            </div>
+          
+            <div class="mItem">
+              <img class="img-galeria" src="phot4.jpg">
+            </div>
+          
+            <div class="mItem">
+              <img class="img-galeria" src="photo5.jpg">
+            </div>
+        </div>
+        </footer>
+    </main>
+    <script src="scriptv2.js"></script>
+</body>
+</html>
